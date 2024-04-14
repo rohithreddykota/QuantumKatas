@@ -17,7 +17,7 @@ RUN pip install -I --no-cache-dir \
         matplotlib \
         numpy \
         pytest \
-        traitlets==5.9.0 
+        traitlets==5.9.0 \
         qsharp-jupyterlab && \
 # Give permissions to the jovyan user
     chown -R ${USER} ${HOME} && \
