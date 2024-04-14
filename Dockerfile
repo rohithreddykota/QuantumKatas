@@ -89,7 +89,7 @@ RUN cd ${HOME}/ && \
 
 # Install other tutorial-specific packages
 RUN dotnet iqsharp install --user
-RUN cd ${HOME}/QuantumKatas/tutorials/QuantumClassification/ && \
+RUN cd ${HOME}/tutorials/QuantumClassification/ && \
     dotnet add package Microsoft.Quantum.MachineLearning --version 0.28.302812
 
 # Set the working directory to $HOME (/home/jovyan/)
